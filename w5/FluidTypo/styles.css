@@ -1,0 +1,46 @@
+.page {
+    max-width: 40rem;
+    margin: auto;
+}
+
+.page p {
+    line-height: 1.5;
+}
+
+img {
+    width: 100%;
+}
+
+.caption {
+    display: flex;
+    justify-content: center;
+    font-size: 0.8em;
+}
+
+@media screen and (max-width: 359px) {
+    :root {
+        font-size: 16px;
+    }
+
+    .page {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 360px) {
+    :root {
+        font-size: 17px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    :root {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 1366px) {
+    :root {
+        font-size: 20px;
+    }
+}
